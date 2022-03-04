@@ -8,7 +8,7 @@ test.each([
   ["ZPZVKL", "ZPZVK"],
   ["UZCUZLZVKDKEPZL", "UZCUZLZVKDKEAZ"],
   ["HJKDZQ", "HJKD"],
-  ["DUNJSEVM", "DUNJS"],
+  ["DUnJSeVM", "DUNJS"],
 ])("%s -> %s", (userInput, rootWord) => {
-  expect(getRootWord(userInput)).toBe(rootWord);
+  expect(getRootWord(userInput)).toStrictEqual([rootWord]);
 });

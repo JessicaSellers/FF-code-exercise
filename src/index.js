@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { WordAnalyser } from './WordAnalyser';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WordAnalyser />
   </React.StrictMode>,
   document.getElementById('root')
 );
